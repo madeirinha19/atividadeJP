@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f7f5f5;
+}
+.color{
+    background-color: #FFF;
+}
+#home-color{
+    background-color: #fbfbfb;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 0 0;
+    font-size: 1.5em;
+    font-weight: none;
+}
+/* HEADER */
+header{
+    width: 960px;
+    height: 30px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* border: 1px solid #FF0000; */
+}
+header #paginas .pag{
+    display: block;
+    float: left;
+    width: auto;
+    padding-right: 30px;
+}
+#topo, #topo a{
+    color: #C0BAB6;
+    background-color: #333333;
+    text-decoration: none;
+}
+.logo{
+    margin-left: 300px;
+}
+.espaco{
+    margin-top: 5px;
+}
+/* FIM HEADER */
+/* MAIN HOME */
+main{
+    width: 980px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #FF0000; */
+}
+#text{
+    font-size: 35px;
+    font-weight: bold;
+}
+#text-home{
+    text-align: center;
+}
+#sub-text{
+    margin-top: 15px;
+    font-weight: bold;
+}
+footer{
+    height: 100px;
+}
+#primeiro-rod-home{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #0000ff;
+}
+.img-home{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+}
+#especif{
+    margin-left: 350px;
+    margin-top: 15px;
+}
+/* FIM MAIN HOME */
+/* RODAPE */
+#rodape{
+    color: #000;
+    height: 150px;
+    width: 1900px;
+    margin-top: 60px;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 150px;
+    /* border: 1px solid #FF0000; */
+}
+.azul{
+    color: #1E90FF;
+}
+#brasil{
+    margin-right: 0px;
+    margin-left: 97%;
+}
+/* FIM RODAPE */
+
+/* MAIN MAC */
+#mac{
+    width: 980px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #FF0000; */
+}
+.img-mac{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    margin-top: 25px;
+}
+#text-mac{
+    height: 230px;
+    text-align: center;
+    /* border: 1px solid #FF0000; */
+}
+#new{
+    font-size: 1.0em;
+    color: #FF8C00;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.preco{
+    font-weight: none;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+.botao{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: #1E90FF;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    /* border: 1px solid #FF0000; */
+}
+.botao a{
+    color: #fff;
+    text-decoration: none;
+}
+.saiba-mais a{
+    text-decoration: none;
+    color: #1E90FF;
+    padding-top: 50px;
+    /* margin-top: 10px; */
+}
+/* FIM MAIN MAC */
+/* MAIN IPAD */
+main#ipad{
+    width: 980px;
+    height: 700px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: auto 593px;
+    /* border: 1px solid #FF0000; */
+}
+.section-ipad{
+    height: 703px;
+    padding: 0;
+    margin: 0;
+}
+#text-ipad{
+    height: 235px;
+    margin-top: 200px;
+    text-align: center;
+    /* border: 1px solid #FF0000; */
+}
+.text-ipad{
+    font-size: 20px;
+    padding-top: 10px;
+    /* border: 1px solid #FF0000; */
+}
+/* FIM MAIN IPAD */
+/* MAIN IPHONE */
+#iphone{
+    width: 980px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #FF0000; */
+}
+.img-iphone{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 50px;
+    margin-top: 25px;
+}
+#text-iphone{
+    height: 230px;
+    text-align: center;
+    padding-top: 50px;
+    /* border: 1px solid #FF0000; */
+}
+#text{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.botao-iphone{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: #1E90FF;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    /* border: 1px solid #FF0000; */
+}
+.botao-iphone a{
+    color: #fff;
+    text-decoration: none;
+}
+.saiba-mais-iphone a{
+    text-decoration: none;
+    color: #1E90FF;
+    /* margin-top: 10px; */
+}
+/* FIM MAIN IPHONE */
+/* MAIN WATCH */
+#serie{
+    color: #FF8C00;
+    font-size: 20px;
+    padding-top: 7px;
+}
+/* FIM MAIN WATCH */
+.espaco.mac a{
+    color: #808080!important;
+}
+.espaco.ipad a{
+    color: #808080!important;
+}
+.espaco.iphone a{
+    color: #808080!important;
+}
+.espaco.watch a{
+    color: #808080!important;
+}
